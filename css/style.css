@@ -82,14 +82,15 @@ input,select{
 }
 
 footer{
-    position: relative;
-    bottom: 0;
+    margin-top: 250px;
+    /* position: fixed;
+    bottom: 0; */
     height: 40px;
     background-color: rgba(96, 96, 96,.8);
 }
 #footer{
     position: relative;
-    top:5px;
+    top:10px;
     font-weight: bold;
     color: white;
     text-align: center;
