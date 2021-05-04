@@ -1,0 +1,96 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto';
+    background-image: url(../img/donate-background.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+header{
+    color: white;
+    background-color: rgba(96, 96, 96,.8);
+    height: 80px;
+}
+
+header h1{
+    font-weight: bold;
+    top: 22px;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap:60px;
+    padding: 110px;
+}
+ #tabeldiv {
+    background-color:  rgba(96, 96, 96,.8);
+    border-radius: 5px;
+    padding-bottom: 100px;
+
+}
+
+#firstlabel{
+     padding-right: 35px;
+}
+#secondlabel{
+    padding-right: 68px;
+}
+
+#formdiv{
+    background-color:  rgba(96, 96, 96,.8);
+    border-radius: 5px; 
+}
+form{
+    padding: 17px;
+}
+label{
+    font-weight: bold;
+    color: #eee;
+}
+table{
+    font-weight: bold;
+    width: 90%;
+    color: #eee;
+    padding: 24px;
+    position: relative;
+    top:30px;
+    bottom: 50px;
+
+}
+th , td{
+    border: 2px solid white;
+}
+
+#submit{
+    font-weight: bold;
+    position: relative;
+    color: white;
+    background-color:black;
+    left: 128px;
+}
+
+input,select{
+    width: 60%;
+    height: 20%;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    height: 40px;
+    background-color: rgba(96, 96, 96,.8);
+}
+#footer{
+    position: relative;
+    top:5px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
